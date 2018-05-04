@@ -1,6 +1,29 @@
 body{
 	background-color: #686b70;
 }
-.cap>h1{
-	color: #a8abaf;
+h1,h3,.motto>h2{
+	color: rgb(55, 150, 255);
+	font-family: 'Alfa Slab One';
+/*color: #a8abaf;*/
+}
+.dropdown, button{
+	background-image: url(iron.jpg);
+}
+.motto{
+	float: right;
+	padding: 2% 30% 0 0;
+}
+h3{
+	text-align: center;
+}
+h2{
+	color: #c4c4c4;
+}
+li{
+	background-image: url(iron.jpg);
+}
+h4{
+	font-family: 'Alfa Slab One';
+	color: rgb(55, 150, 255);
+	text-align: left;
 }

@@ -27,3 +27,19 @@ h4{
 	color: rgb(55, 150, 255);
 	text-align: left;
 }
+fieldset{
+	margin-top: 2%;
+	padding: 0 25% 0 25%;
+}
+fieldset>h3,fieldset>legend{
+	color: rgb(55, 150, 255);
+	font-family: none;
+	background: linear-gradient(to right,#424344, black, #424344);
+}
+legend{
+	width: 30.5%
+}
+.container{
+	margin-top: 2%;
+	background: linear-gradient(#424344, #686b70, #424344)
+}

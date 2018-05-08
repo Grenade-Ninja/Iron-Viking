@@ -1,5 +1,5 @@
 body{
-	background-color: #686b70;
+	background: linear-gradient(#424344, #686b70, #424344);
 }
 h1,h3,.motto>h2{
 	color: rgb(55, 150, 255);
@@ -42,4 +42,39 @@ legend{
 .container{
 	margin-top: 2%;
 	background: linear-gradient(#424344, #686b70, #424344)
+}
+.fitness{
+	margin: 3% 0 0 0;
+	display: flex;
+	justify-content: space-around;
+}
+.view{
+	color: rgb(55, 150, 255);
+}
+.macroguide{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+.carousel{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+.store{
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-around;
+	text-align: center;
+	background: linear-gradient(to right,#424344, #686b70, #424344);
+}
+.pants,.shirts{
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-around;
+	text-align: center;
+}
+.news>fieldset>p{
+	background: linear-gradient(black ,#424344, black);
+	color: rgb(55, 150, 255);
 }

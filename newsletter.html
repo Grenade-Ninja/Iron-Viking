@@ -7,7 +7,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="styles.css">
-		<link rel="stylesheet" href="newsletter.css">
+		<link rel="stylesheet" href="news.css">
+
 		<title>Iron Viking</title>
 	</head>
 	<body>
@@ -15,7 +16,7 @@
 			<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				<img style="float: left" src="logo-transparent-drop.png" alt="Iron Viking">
 				<span><h3>Menu</h3></span>
-			</button>
+    		</button>
       	<ul class="dropdown-menu" aria-labelledby="dLabel">
 					<li><a href="index.html"><h4>Home</h4></a></li>
 					<li><a href=""><h4>Fitness</h4></a></li>
@@ -25,44 +26,26 @@
 					<li><a href="newsletter.html"><h4>News Letter</h4></a></li>
 				</ul>
 					<div class="motto"> <h2>L i v e - U n a f r a i d — D i e - S t r o n g </h2></div>
-		</div
-
+		</div>
 		<div class="container">
-		 	<h3>I r o n V i k i n g Store</h3>
-		 	<div class="row">
-			  <div class="col-sm-4">
-					<img src="tshirt.jpg" alt="Shirt" height="300px" width=100%>
-					<div class="top-left"> Sizes: S	M L XL and XXL <br> Sale: $24.99 <br></div>
+			<form method="get" action="thankyou.html" >
+
+			  <div class="container">
+			    <h2>Subscribe to our Newsletter</h2>
+					<h2> The Newsletter will be e-mailed on a weekly basis</h2>
 			  </div>
-			  <div class="col-sm-4">
-			 	 	<img src="tshirt.jpg" alt="Shirt" height="300px" width=100%>
-					<div class="top-left"> Sizes: S	M L XL and XXL <br> Sale: $24.99 <br></div>
+
+			  <div class="container" style="background-color:white">
+			    <input type="text" placeholder="Name" name="name" size="30" required> <br>
+			    <input type="text" placeholder="Email address" name="mail"  required>
 			  </div>
-			  <div class="col-sm-4">
-				  <img src="tshirt.jpg" alt="Shirt" height="300px" width=100%>
-					<div class="top-left"> Sizes: S	M L XL and XXL <br> Sale: $24.99 <br></div>
+
+			  <div class="container">
+			   <input type="submit" value="submit" class="submit" size="30">
 			  </div>
-		  </div> <!-- close first row -->
 
-		  <!--  Second row -->
-
-		  <div class="row">
-				<div class="col-sm-4">
- 				 <img src="tshirt.jpg" alt="Shirt" height="300px" width=100%>
-				 <div class="top-left"> Sizes: S	M L XL and XXL <br> Sale: $24.99 <br></div>
- 			 </div>
- 			 <div class="col-sm-4">
- 				 <img src="tshirt.jpg" alt="Shirt" height="300px" width=100%>
-				 <div class="top-left"> Sizes: S	M L XL and XXL <br> Sale: $24.99 <br></div>
- 			 </div>
- 			 <div class="col-sm-4">
- 				 <img src="tshirt.jpg" alt="Shirt" height="300px" width=100%>
-				 <div class="top-left"> Sizes: S	M L XL and XXL <br> Sale: $24.99 <br></div>
- 			 </div>
-
-		 </div> <!-- close second row -->
-	  </div> <!--  close container -->
-
+			</form>
+		</div>
 		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>

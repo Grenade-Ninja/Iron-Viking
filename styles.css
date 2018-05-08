@@ -1,5 +1,5 @@
 body{
-	background: linear-gradient(#424344, #686b70, #424344);
+	background-color: #686b70;
 }
 h1,h3,.motto>h2{
 	color: rgb(55, 150, 255);
@@ -8,6 +8,7 @@ h1,h3,.motto>h2{
 }
 .dropdown, button{
 	background-image: url(iron.jpg);
+
 }
 .motto{
 	float: right;
@@ -43,38 +44,31 @@ legend{
 	margin-top: 2%;
 	background: linear-gradient(#424344, #686b70, #424344)
 }
-.fitness{
-	margin: 3% 0 0 0;
-	display: flex;
-	justify-content: space-around;
+
+						/*  newsletter styles */
+input[type=text], input[type=submit] {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
 }
-.view{
-	color: rgb(55, 150, 255);
+
+input[type=checkbox] {
+    margin-top: 16px;
 }
-.macroguide{
-	margin-top: 5%;
-	display: flex;
-	justify-content: space-around;
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: black;
+    border: none;
 }
-.carousel{
-	margin-top: 5%;
-	display: flex;
-	justify-content: space-around;
+
+input[type=submit]:hover {
+    opacity: 0.8;
 }
-.store{
-	display: flex;
-	margin-top: 5%;
-	justify-content: space-around;
-	text-align: center;
-	background: linear-gradient(to right,#424344, #686b70, #424344);
-}
-.pants,.shirts{
-	display: flex;
-	margin-top: 5%;
-	justify-content: space-around;
-	text-align: center;
-}
-.news>fieldset>p{
-	background: linear-gradient(black ,#424344, black);
-	color: rgb(55, 150, 255);
+
+bottom-left{
+	color: white;
 }
